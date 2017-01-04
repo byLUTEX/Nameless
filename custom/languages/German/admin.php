@@ -19,7 +19,7 @@ $language = array(
 	// Sidebar
 	'admin_cp' => 'AdminCP',
 	'administration' => 'Administration',
-	'overview' => 'Overview',
+	'overview' => 'Übersicht',
 	'core' => 'Core',
 	'minecraft' => 'Minecraft',
 	'modules' => 'Module',
@@ -29,7 +29,7 @@ $language = array(
 	
 	// Overview
 	'running_nameless_version' => 'Forum läuft auf der Version <strong>{x}</strong>', // Don't replace "{x}"
-	'running_php_version' => 'Running PHP version <strong>{x}</strong>', // Don't replace "{x}"
+	'running_php_version' => 'PHP läuft auf der Version <strong>{x}</strong>', // Don't replace "{x}"
 	'statistics' => 'Statistiken',
 	
 	// Core
@@ -39,8 +39,8 @@ $language = array(
 	'default_language' => 'Standart Sprache',
 	'default_language_help' => 'Benutzer können aus einer Liste ihre eigene Sprache auswählen.',
 	'installed_languages' => 'Es wurden alle neuen Sprachen erfolgreich installiert.',
-	'default_timezone' => 'Default timezone',
-	'registration' => 'Registration',
+	'default_timezone' => 'Standart Zeitzone',
+	'registration' => 'Registrierung',
 	'enable_registration' => 'Registrierung aktivieren?',
 	'verify_with_mcassoc' => 'Sollen sich Nutzer mit MCAssoc verifizieren?',
 	'email_verification' => 'Email Verifikation aktivieren?',
@@ -54,42 +54,42 @@ $language = array(
 	'social_media' => 'Soziale Medien',
 	'youtube_url' => 'Youtube URL',
 	'twitter_url' => 'Twitter URL',
-	'twitter_dark_theme' => 'Benutze Dunkles Twitter Theme?',
+	'twitter_dark_theme' => 'Benutze dunkles Twitter Theme?',
 	'google_plus_url' => 'Google Plus URL',
 	'facebook_url' => 'Facebook URL',
 	'successfully_updated' => 'Erfolgreich geupdatet.',
 	
 	// Reactions
-	'icon' => 'Icon',
-	'type' => 'Type',
-	'positive' => 'Positive',
+	'icon' => 'Symbol',
+	'type' => 'Typ',
+	'positive' => 'Positiv',
 	'neutral' => 'Neutral',
-	'negative' => 'Negative',
-	'editing_reaction' => 'Editing Reaction',
+	'negative' => 'Negativ',
+	'editing_reaction' => 'Reaktion bearbeiten',
 	'html' => 'HTML',
-	'new_reaction' => '<i class="fa fa-plus-circle"></i> New Reaction',
-	'creating_reaction' => 'Creating Reaction',
+	'new_reaction' => '<i class="fa fa-plus-circle"></i> Neue Reaktion',
+	'creating_reaction' => 'Erstelle Reaktion',
 	
 	// Custom profile fields
-	'custom_fields' => 'Custom Profile Fields',
-	'new_field' => '<i class="fa fa-plus-circle"></i> New Field',
-	'required' => 'Required',
-	'public' => 'Public',
+	'custom_fields' => 'Benutzerdefinirte Profilfelder',
+	'new_field' => '<i class="fa fa-plus-circle"></i> Neues Feld',
+	'required' => 'Benötigt',
+	'public' => 'Öffentlich',
 	'text' => 'Text',
-	'textarea' => 'Text area',
-	'date' => 'Date',
-	'creating_profile_field' => 'Creating Profile Field',
-	'editing_profile_field' => 'Editing Profile Field',
-	'field_name' => 'Field Name',
-	'profile_field_required_help' => 'Required fields must be filled out by the user, and they will appear during registration.',
-	'profile_field_public_help' => 'Public fields will be displayed to all users, if this is disabled only moderators can view the values.',
-	'profile_field_error' => 'Please input a field name between 2 and 16 characters long.',
-	'description' => 'Description',
-	'display_field_on_forum' => 'Display field on forum?',
-	'profile_field_forum_help' => 'If enabled, the field will display by the user next to forum posts.',
+	'textarea' => 'Text Feld',
+	'date' => 'Datum',
+	'creating_profile_field' => 'Erstelle Profilefeld',
+	'editing_profile_field' => 'Bearbeite Profilefeld',
+	'field_name' => 'Feld Name',
+	'profile_field_required_help' => 'Benötigte Felder müssen von dem User bei der Registrierung eingetragen werden.',
+	'profile_field_public_help' => 'Öffentliche Felder können von allen Benutzern einsehen werden, falls deaktiviert, nur von Moderatoren.',
+	'profile_field_error' => 'Bitte gebe ein Name zwischen 2 und 16 Zeichen an.',
+	'description' => 'Beschreibung',
+	'display_field_on_forum' => 'Zeige Profilfeld im Forum an?',
+	'profile_field_forum_help' => 'Falls aktiviert, wird das Profilfeld neben dem Post des Benutzers angezeigt.',
 	
 	// Minecraft
-	'enable_minecraft_integration' => 'Enable Minecraft integration?',
+	'enable_minecraft_integration' => 'Aktiviere Minecraft Integration?',
 	
 	// Modules
 	'modules_installed_successfully' => 'Alle neuen Module wurden erfolgreich installiert.',
@@ -173,21 +173,21 @@ $language = array(
 	'please_select_logs' => 'Bitte wähle die Logs aus.',
 	'ip_address' => 'IP Addresse',
 	'template_changes' => 'Template Editierungen',
-	'file_changed' => 'File geändert',
+	'file_changed' => 'Datei geändert',
 	
 	// Updates
 	'update' => 'Update',
-	'current_version_x' => 'Current version: <strong>{x}</strong>', // Don't replaec {x}
-	'new_version_x' => 'New version: <strong>{x}</strong>', // Don't replace {x}
-	'new_update_available' => 'There is a new update available',
-	'up_to_date' => 'Your NamelessMC installation is up to date!',
-	'urgent' => 'This update is an urgent update',
+	'current_version_x' => 'Aktuelle Version: <strong>{x}</strong>', // Don't replaec {x}
+	'new_version_x' => 'Neue Version: <strong>{x}</strong>', // Don't replace {x}
+	'new_update_available' => 'Es ist eine neue Version verfügbar!',
+	'up_to_date' => 'Deine NamelessMC Installation ist auf dem neusten Stand!',
+	'urgent' => 'Dies ist ein dringendes Update!',
 	'changelog' => 'Changelog',
-	'update_check_error' => 'There was an error whilst checking for an update:',
-	'instructions' => 'Instructions',
+	'update_check_error' => 'Beim Überprüfen auf ein Update ist ein Fehler aufgetreten:',
+	'instructions' => 'Anleitung',
 	'download' => 'Download',
-	'install' => 'Install',
-	'install_confirm' => 'Please ensure you have downloaded the package and uploaded the contained files first!',
+	'install' => 'Installieren',
+	'install_confirm' => 'Bitte stellen Sie sicher, dass Sie das Paket heruntergeladen und die enthaltenen Dateien zuerst hochgeladen haben!',
 	
 	// File uploads
 	'drag_files_here' => 'Ziehe ein Bild hierhin.',
